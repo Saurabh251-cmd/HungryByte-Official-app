@@ -20,7 +20,7 @@ services:
     ports:
       - "8080:80"
     environment:
-      ConnectionStrings__FoodDeliveryDbConnectionString: Host=hungrybytev2-hungrybites-2.k.aivencloud.com;Port=25628;Database=defaultdb;Username=avnadmin;Password=AVNS_GN1jvtI6mtVmWXYKuIP;sslmode=Require;Trust Server Certificate=true;
+      ConnectionStrings__FoodDeliveryDbConnectionString:input
       StripeSettings__SecretKey: STRIPE_API_SECRET_KEY
       StripeSettings__WebhookSecret: STRIPE_API_WEBHOOK_SECRET
       CloudinarySettings__CloudinaryUrl: CLOUDINARY_API_URL
